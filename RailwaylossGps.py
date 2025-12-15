@@ -7,6 +7,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         prog="RailwayLossGps",
         description=(
+            "writted by mohamadrezaghorbani.12345@gmail.com"
             "Corrects GPS points using railway geometry.\n\n"
             "INPUTS:\n"
             "  • Excel file with Timestamp, Latitude, Longitude\n"
