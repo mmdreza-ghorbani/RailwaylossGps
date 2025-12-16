@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project implements a **deterministic, railway-constrained GPS trajectory correction pipeline** designed for railway drive-test and telemetry data.
+This project implements a **deterministic, railway-constrained GPS trajectory correction pipeline** designed originally for railway drive-test and telemetry data.
 
 The goal is to **reconstruct accurate point locations when GPS data contains noise, spikes, missing seconds, teleports, or ordering issues**, while strictly respecting railway geometry and temporal continuity.
 
-Instead of relying on heavy probabilistic map-matching frameworks, this approach focuses on **explainable, rule-based correction** that is suitable for post-processing, analytics, and audit-friendly environments (e.g., telecom drive tests).
+Instead of relying on heavy probabilistic map-matching frameworks, this approach focuses on **explainable, rule-based correction** that is suitable for post-processing, analytics, and audit-friendly environments (e.g., telecom drive tests, trajectory data).
 
 ---
 
