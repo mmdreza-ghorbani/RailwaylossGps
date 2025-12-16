@@ -1,4 +1,8 @@
 # app.py
+"""
+for build using nuitka
+python -m nuitka "Path\RailwaylossGps.py" --onefile --standalone --follow-imports --remove-output --lto=yes --clang --assume-yes-for-downloads  --windows-console-mode=attach
+"""
 import security.guard
 
 # ======================================
